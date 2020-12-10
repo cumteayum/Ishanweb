@@ -6,7 +6,7 @@ const app = express();
 const nodemailer = require("nodemailer");
 const bodyParser = require("body-parser");
 const fs = require('fs');
-const port = process.env.port || 8000
+const port = 8000;
 //const packageFile = fs.createReadStream(__dirname+'/templates/assets/img', 'utf-8');
 
 // Connect to our mongoDB Database
