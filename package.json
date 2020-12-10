@@ -1,0 +1,21 @@
+{
+  "name": "ishan_website",
+  "version": "1.0.0",
+  "description": "simple portfolio website made with B5 expressjs and nodejs",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "hbs": "^4.1.1",
+    "mongoose": "^5.11.5",
+    "nodemailer": "^6.4.16",
+    "nodemon": "^2.0.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+      "start":"node index.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ishan",
+  "license": "ISC"
+}
