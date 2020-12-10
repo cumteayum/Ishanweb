@@ -127,5 +127,6 @@ app.get('/port', (req, res) => {
 
 app.get("*", (req, res) => {
   res.render("lost.hbs");
+
 });
 app.listen(port, () => console.log(`http://localhost:${port}`));
